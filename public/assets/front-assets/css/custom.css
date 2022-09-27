@@ -1,0 +1,351 @@
+/*Costume Class style*/
+.product-badge{
+    width: 92%;
+}
+.bg-hidden {
+    background: none !important;
+}
+.product-badge .fa-heart{
+    font-size: 17px;
+}
+.disount-class {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FF5A3C;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 6px;
+    font-weight: 700;
+}
+.text-line-through {
+    text-decoration-line: line-through;
+    color: #605f5f !important;
+}
+/*End Costume Class style*/
+
+/*Start Swiper CSS Section*/
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    /*height: 80%;*/
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+.swiper-container.mySwiper2{
+    padding-bottom: 8px;
+}
+
+/*.swiper-slide img {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
+/*End Swiper CSS Section*/
+
+/*Start Product Section*/
+.label-color {
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.input-color {
+    appearance: none;
+}
+.label-color-active {
+    border: 2px solid gold;
+    transition: ease-in-out 3ms;
+}
+/*End Product Section*/
+
+/*Start Services Section*/
+.services-section {
+    height: 700px;
+}
+
+.services-section ul {
+    overflow: auto;
+}
+
+.services-section ul::-webkit-scrollbar {
+    width: 10px;
+}
+
+.services-section ul::-webkit-scrollbar-thumb {
+    background-color: #FF5A3C;
+    outline: 1px solid slategrey;
+}
+
+.services-section .service-tap {
+    padding: 20px;
+}
+
+.service-tap .hr {
+    height: 2px;
+    background: #FF5A3C;
+    width: 15px;
+    display: inline-block;
+    margin-bottom: 3px;
+    transition: all ease-in-out 0.3s;
+}
+
+.services-section .service-tap a:hover div {
+    width: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.services-section .service-tap a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.services-section .active {
+    color: #FF5A3C;
+}
+.services-section .service-tap .active div{
+    width: 30px;
+    transition: all 0.3s ease-in-out;
+}
+@media  (max-width: 992px){
+    .services-section ul{
+        height: auto !important;
+    }
+}
+
+/*End Services Section*/
+
+
+/*Start Coupon Section*/
+
+.get-coupon{
+    position: absolute;
+    top: 17%;
+    left: 0;
+}
+
+@media  (max-width: 768px){
+    .get-coupon{
+        top: 27% ;
+    }
+}
+
+.section-add-ad {
+    height: 350px;
+    background-image: url("../img/estate/rsz_2banner2.jpg");
+    background-size: cover;
+}
+
+.section-add-ad .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(74, 80, 166, 0.91);
+    position: relative;
+}
+
+.section-add-ad .overlay .z-index {
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+}
+
+.section-add-ad .btn-estate{
+    color: #fff;
+    background-color: #ff5a3c;
+    border-color: #ff5a3c;
+    padding: 17px 68px !important;
+}
+
+.section-countries .slick-dots{
+    margin-top: 50px;
+}
+
+.section-agents {
+    height: 600px;
+    overflow: hidden;
+}
+
+.section-agents .image-avatar {
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: -100px;
+}
+
+.section-agents .agents {
+    margin-top: 260px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;700&display=swap");
+
+.testimonials {
+    background: #fff;
+    text-align: center;
+    width: 95%;
+    max-width: 600px;
+    padding: 2rem;
+    margin: 1.5rem auto;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+.title {
+    font-size: 1.5rem;
+}
+.description {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.slider-container {
+    margin-top: 2rem;
+    margin: 2rem auto 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    flex: 0 0 1;
+    /*width: 300%; !* Depends On slide-box Length * 100 *!*/
+    transition: all 0.5s linear;
+}
+.slide-box {
+    padding: 0 80px;
+}
+.slide-box .comment {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.86rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    position: relative;
+    font-weight: 400;
+}
+.slide-box .comment::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    height: 20px;
+    width: 20px;
+    background-color: #000;
+    transform: translateX(-50%) rotate(45deg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.slide-box img {
+    max-width: 60px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.slide-box .name {
+    font-size: 1rem;
+}
+.slide-box .job {
+    font-size: 0.7rem;
+    color: #8d8e97;
+    font-weight: 400;
+}
+
+.control-slider {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    line-height: 40px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.slider-container .slick-dots{
+    margin: auto;
+}
+.btn-left {
+    left: 10px;
+}
+.btn-right {
+    right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .slide-box {
+        padding: 0 55px;
+    }
+}
+
+.categories-section-content {
+    height: 85vh;
+}
+
+.coupon-content
+{
+    background: #ddd;
+}
+
+
+.sumernote-content img {
+    padding: 25px !important;
+}

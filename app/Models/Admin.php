@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+class Admin extends Authenticatable
+{
+    protected $guard = 'admin';
+    use HasFactory;
+    protected $guarded;
+
+    public function ads()
+    {
+        return $this->hasMany(Ad::class);
+    }
+}
